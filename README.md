@@ -23,4 +23,4 @@ Finally, we add in AI-powered object tagging using Amazon Comprehend, to allow u
 
 If you don't want to follow the tutorial but just want to deploy in your local machine the final product here are the steps to follow to get this working
 
-[Deploying the final product](/docs/final-product.md) < TODO >
+[Deploying the final product](/docs/final-product.md)
