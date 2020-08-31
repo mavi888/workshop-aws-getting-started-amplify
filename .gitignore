@@ -37,3 +37,8 @@ amplifyconfiguration.json
 amplify-build-config.json
 amplify-gradle-config.json
 amplifyxc.config
+notes-app/.graphqlconfig.yml
+notes-app/amplify.json
+notes-app/package-lock.json
+notes-app/amplify/
+notes-app/src/graphql/
