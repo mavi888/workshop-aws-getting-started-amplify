@@ -1,0 +1,12 @@
+type Note
+@model
+@auth(rules: [{ allow: owner }])
+@key(
+  fields: ["owner", "note"]
+  queryField: "notesByOwner"
+  name: "ownerIndex"
+) {
+  id: ID!
+  note: String!
+  owner: String
+}

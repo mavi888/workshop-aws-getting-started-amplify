@@ -1,74 +1,26 @@
-# Steps for building this application with Amplify
+# Build a simple note taking application with AWS Amplify
 
-1. Clone the repo
-2. Install amplify in your computer and configure it (https://docs.amplify.aws/start/getting-started/installation/q/integration/react)
-3. Install this app in your computer 
-````
-$ npm install
-`````
+In this workshop, we’ll use React to build a web app that lets users create notes in a secure way.
+We’ll use AWS AppSync to get up and running quickly with a GraphQL API that backs our data in Amazon DynamoDB.
+In addition, we’ll demonstrate how to use the AWS Amplify library to authenticate users and communicate with our API.
 
-4. Run this app
-```
-$ npm start
-```
+Finally, we add in AI-powered object tagging using Amazon Comprehend, to allow users to get perform some sentiment analysis on the different notes.
 
-5. Initalize this app with amplify. Follow the steps in the console.
-````
-$ amplify init
-```
+## Table of contents
 
-6. Add authentication - create a default configuration with username
-````
-$ amplify add auth
-```
+1. [Prerequisites for the workshop](/docs/prerequisites.md)
+2. [Getting started](/docs/getting-started.md)
+3. [Initialize the application with Amplify](/docs/initialize-app.md)
+4. [Add authentication](/docs/add-authentication.md)
+5. [Create a GraphQL API](/docs/add-api.md)
+6. [Add Search](/docs/add-search.md)
+7. [Add AI](/docs/add-ai.md)
+8. [Publishing the app](/docs/deploy-app.md)
+9. [Do you want more?](/docs/extra-challenges.md)
+10. [Cleaning up](/docs/cleaning-up.md)
 
-7. Push the changes to the cloud
-````
-$ amplify push
-````
+## Just show me the final product
 
-8. Create the front-end for the authentication
-`````
-$ cp base/App-01.js src/App.js
-$ cp base/App-01.css src/App.css
-$ cp base/index-01.html public/index.html
-````
+If you don't want to follow the tutorial but just want to deploy in your local machine the final product here are the steps to follow to get this working
 
-9. After the changes were pushed to the cloud you can test your app and create an account.
-
-10. Add an GraphQL API with Cognito User pools as auth. Pick that you dont have an annotated graphql schema and that you want help with the schema creation.
- 
-````
-$ amplify add api
-`````
-
-Copy this schema in the schema.graphql file that pops up. 
-
-`````
-type Note @model @auth(rules: [{allow: owner}]) {
-	id: ID!
-	note: String!
-}
-`````
-11. Then push the changes to the cloud. Accept all the defaults and continue. 
-````
-$ amplify push
-````
-
-12. Modify the frontend to have the api.
-
-`````
-$ cp base/App-02.js src/App.js
-````
-
-13. When the changes are all in the cloud test your page. 
-
-14. If you want to add search. You can go and modify your graphql schema. 
-´´´
-type Note @model @auth(rules: [{allow: owner}]) @searchable {
-	id: ID!
-	note: String!
-}
-´´´´
-and then push the changes to the cloud
-
+[Deploying the final product](/docs/final-product.md) < TODO >
