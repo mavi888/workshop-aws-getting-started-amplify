@@ -2,7 +2,7 @@
 
 ### 1 - Create an AWS Account
 
-If you already have an AWS account you can skip this step
+If you already have an AWS account you can skip this step.
 
 If not you can follow the steps in this [link](https://www.youtube.com/watch?v=9_wo0FHtVmY) to create an account.
 
@@ -40,13 +40,13 @@ AWS Cloud9 is a cloud-based integrated development environment (IDE) that lets y
 
 1. Log in with the user you created in the previous step
 
-2. Go to the [Cloud9 web console](https://us-west-2.console.aws.amazon.com/cloud9/home?region=us-west-2).
+2. Go to the [Cloud9 web console](https://eu-west-1.console.aws.amazon.com/cloud9/).
 
 3. At the top right corner of the console, make sure you’re using one of these regions: Virginia (us-east-1), Oregon (us-west-2), Ireland (eu-west-1) or Singapore (ap-southeast-1).
 
 4. Select Create environment
 
-5. Name it workshop, and go to the Next step.
+5. Name it "workshop", and go to the Next step.
 
 6. Select Create a new instance for environment (EC2) and click _Other instance type_ and pick "t2.medium"
 
@@ -109,3 +109,38 @@ cat <<END > ~/.aws/config
 region=ap-southeast-1
 END
 ```
+
+## 5 - Clone this GitHub repo
+
+Let's get the auxiliary code into our Cloud9 enviroment. We will download this project that contains a folder called base, this folder contains all the code you will use in your examples, so you don't need to type it.
+
+For cloning the project, in your terminal
+
+```
+git clone https://github.com/mavi888/workshop-aws-getting-started-amplify.git
+```
+
+This command will download the project into a folder called "workshop-aws-getting-started-amplify", and inside there you can find a folder called base.
+
+To make things easy to copy-paste the code, let's move the "base" folder to the root directory.
+
+```
+cp -r workshop-aws-getting-started-amplify/base/ base/
+```
+
+Now you should have a base folder in the root of your workshop directory, and inside you should see many files.
+
+## 6- Making cloud9 environment bigger
+
+The allocated storage for your Cloud9 environment is quite small for the size of all the dependencies that we are going to install.
+
+We will run a simple script to give more storage capability to our workspace.
+
+```
+cd utils
+sh resize.sh 20
+```
+
+### Next move to getting started
+
+[Go to Getting started](getting-started.md)

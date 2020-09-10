@@ -18,7 +18,7 @@ For this demo I will show you the local deployment. But feel free to investigate
 1. Lets run in our notes-app directory the command
 
 ```
-amplify add hosting
+     amplify add hosting
 ```
 
 2. Then choose the option that says "Amazon CloudFront and S3"
@@ -38,3 +38,8 @@ You see here that we type publish and not push. Push only pushes the backend com
 6. When this finishes you get back an URL - hosting endpoint. That is the link for your app in the cloud.
 
 7. Open the URL in the browser and you are ready, your app is live in the cloud.
+
+## Next
+
+[Do you want more?](extra-challenges.md)
+[Cleaning up](cleaning-up.md)

@@ -123,3 +123,7 @@ Now you can go to the webpage and see what is going on. Add a couple of notes an
      alt="Result of adding new notes" />
 
 The old notes won't have a label and the new notes will do have one, that shows the sentiment of the text in that note.
+
+### Next
+
+[Publishing the app](deploy-app.md)

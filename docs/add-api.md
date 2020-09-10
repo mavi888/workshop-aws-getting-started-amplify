@@ -35,6 +35,10 @@ note: String!
 
 You can also find the schema in ../base/schema-01.grahql file
 
+```
+cp ../base/schema-01.graphql amplify/backend/api/notesapp/schema.graphql
+```
+
 9. Return to the terminal and press Enter
 
 This is what you just did looks:
@@ -129,3 +133,7 @@ async componentDidMount(){
 ```
 
 In these methods you can see that we are using the Amplify client library to access the GraphQL API in a simple way.
+
+### Next
+
+[Add Search](add-search.md)

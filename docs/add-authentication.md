@@ -84,3 +84,7 @@ Copy and paste the confirmation code into your app and you should then be able t
 After you log in this is what you will see:
 <img src="../images/first-look-note-app.png"
      alt="Preview of the noteapp screen" />
+
+### Next
+
+[Create a GraphQL API](add-api.md)

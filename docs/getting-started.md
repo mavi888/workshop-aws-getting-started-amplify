@@ -88,9 +88,12 @@ If you’d like, you can also pop the preview to a new window:
 
 ## Installing dependencies
 
-1. Let install Boostrap so we can make our web app look nicer
+1. Let install Boostrap so we can make our web app look nicer.
+
+If you are not inside the notes-app directory, please go in there
 
 ```
+cd notes-app
 npm install bootstrap
 ```
 
@@ -101,3 +104,7 @@ cp ../base/index-01.html public/index.html
 ```
 
 Nothing had change in the site in the browser.
+
+### Next...
+
+[Initialize the application with Amplify](initialize-app.md)

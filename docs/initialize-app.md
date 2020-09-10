@@ -18,7 +18,7 @@ amplify init
 
 3. Prese enter for the default environment name 'dev'
 
-4. Select ‘Visual Studio Code’ for the default editor (we’re using Cloud9)
+4. Select None - as we are using Cloud9
 
 5. Choose JavaScript and React when prompted
 
@@ -40,7 +40,7 @@ Note: It is recommended to run this command from the root of your app directory
 
 ? Enter a name for the project notesapp
 ? Enter a name for the environment dev
-? Choose your default editor: Visual Studio Code
+? Choose your default editor: None
 ? Choose the type of app that you're building javascript
 Please tell us about your project
 ? What javascript framework are you using react
@@ -86,3 +86,7 @@ cp ../base/App-01.js src/App.js
 ```
 
 And that’s all it takes to configure Amplify. As you add or remove categories and make updates to your backend configuration using the Amplify CLI, the configuration in aws-exports.js will update automatically.
+
+### Next...
+
+[Add authentication](add-authentication.md)

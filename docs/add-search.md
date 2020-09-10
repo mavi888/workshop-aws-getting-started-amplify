@@ -36,6 +36,10 @@ type Note
 
 You can find the lastest version of the file in the base directory ../base/schema-02.graphql.
 
+```
+cp ../base/schema-02.graphql amplify/backend/api/notesapp/schema.graphql
+```
+
 You see that we added a @key annotation to the graphQL type. You can find more information about this annotation in the [Amplify docs](https://docs.amplify.aws/cli/graphql-transformer/directives#key).
 
 Basically this annotation will create a secondary index in our DynamoDB table, that will allow us to do search in our notes in a more efficient way.
@@ -122,3 +126,7 @@ The notesByOwner method returns a list of notes that match the search criteria a
 
 <img src="../images/search-results.png"
      alt="Preview of the login screen" />
+
+### Next
+
+[Add AI](add-ai.md)
