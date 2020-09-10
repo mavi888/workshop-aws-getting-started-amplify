@@ -33,8 +33,8 @@ amplify add hosting
 amplify publish
 ```
 
-You see here that we type publish and not push. Push only push the backend components to the cloud, while publish deploys all the components to the cloud - frontend and backend.
+You see here that we type publish and not push. Push only pushes the backend components to the cloud, while publish deploys all the components to the cloud - frontend and backend.
 
-6. When this finish you get back an URL - hosting endpoint. That is the link for your app in the cloud.
+6. When this finishes you get back an URL - hosting endpoint. That is the link for your app in the cloud.
 
 7. Open the URL in the browser and you are ready, your app is live in the cloud.

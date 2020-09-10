@@ -48,7 +48,7 @@ AWS Cloud9 is a cloud-based integrated development environment (IDE) that lets y
 
 5. Name it workshop, and go to the Next step.
 
-6. Select Create a new instance for environment (EC2) and pick "t2.medium"
+6. Select Create a new instance for environment (EC2) and click _Other instance type_ and pick "t2.medium"
 
 7. Leave all of the environment settings as they are, and go to the Next step.
 

@@ -31,7 +31,7 @@ amplify add predictions
 
 6. Then we need to modify our API. Now we will add to the API a new attribute for the note, that is the sentiment. So everytime we create a new note the sentiment of the note is stored in the database with the content of the note.
 
-For that we need to modify the existing GraphQL schema. Go to the folder "amplify --> backend --> api" and there you will find a file called schema.graphql. Modify it to look like this.
+For that we need to modify the existing GraphQL schema. Go to the folder "amplify --> backend --> api --> notesapp" and there you will find a file called schema.graphql. Modify it to look like this.
 
 ```
 type Note

@@ -9,9 +9,9 @@ Or we can use the power that there is in DynamoDB to provide more simple search 
 Amazon ElasticSearch is a great service if you need complex queries and it is fully integrated to AWS Amplify.
 Check the [searchable directive](https://docs.amplify.aws/cli/graphql-transformer/directives#searchable) for more info. The main problem with Amazon ElasticSearch service is that is not a serverless service, it will be running all the time, no matter if we are searching or not.
 
-If we choose DynamoDB to provide search capabilities we can get search results in miliseconds and we can embrace the serverless architecture, however the queries qe can do are a bit more limited.
+If we choose DynamoDB to provide search capabilities we can get search results in miliseconds and we can embrace the serverless architecture, however the queries we can do are a bit more limited.
 
-For this use case we are using DynamoDB. We will create a simple search that will allow us to search for the text in our notes. The limitation is that we can only get results for notes that begins with the desired search word.
+For this use case we are using DynamoDB. We will create a simple search that will allow us to search for the text in our notes. The limitation is that we can only get results for notes that begin with the desired search word.
 
 ## Modifying the GraphQL API
 

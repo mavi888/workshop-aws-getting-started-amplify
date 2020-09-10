@@ -36,9 +36,7 @@ Fortunately, AWS provides services and tooling to handle a lot of the undifferen
 
 - [AWS AppSync](https://aws.amazon.com/appsync/), to host a GraphQL API for our front end
 
-- Amazon Comprehend < TODO >
-
-- [Amazon Elasticsearch Service](https://aws.amazon.com/elasticsearch-service/), to index and search our notes by their content
+- [Amazon Comprehend](https://aws.amazon.com/comprehend/), we will use to find the sentiment of our notes
 
 If any or all of these services are new to you, don’t worry. We’ll cover everything you need to know to get started using everything mentioned above. And there’s no better way to learn than to build, so let’s get started!
 

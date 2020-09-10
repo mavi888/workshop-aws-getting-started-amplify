@@ -92,7 +92,7 @@ Now your page should look like this:
 
 2. Now you can create notes, they will appear in a list and also you can delete them. Play a bit with the UI.
 
-So what we have done when we copied the App-03.js file?
+So what have we done when we copied the App-03.js file?
 
 You will see these new imports:
 
@@ -128,4 +128,4 @@ async componentDidMount(){
   }
 ```
 
-In these methods you can see that we are using the Amplify client librariy to access the GraphQL API in a simple way.
+In these methods you can see that we are using the Amplify client library to access the GraphQL API in a simple way.

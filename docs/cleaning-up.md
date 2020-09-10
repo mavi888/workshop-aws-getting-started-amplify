@@ -1,14 +1,14 @@
 # Cleaning up after the workshop
 
-When you are ready with the workshop, it is time to delete everything from your AWS account.
+When you are finished with the workshop, it is time to delete everything from your AWS account.
 
 Nothing on the workshop should cost you, but is a good practice to remove everything we just build from your AWS account.
 
-After doing this everything will be removed including the data.
+After doing this, everything will be removed including the data.
 
 1. Log in to your AWS account, in the same region that you deployed your application.
 
-2. Go to a service called cloudformation.
+2. Go to a service called CloudFormation.
 
 <img src="../images/going-cloudformation.png"
      alt="Opening cloudformation" />

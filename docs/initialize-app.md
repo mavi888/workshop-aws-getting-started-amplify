@@ -8,7 +8,7 @@ AWS Amplify contains some nice abstractions for working with cloud services, and
 
 ## Initializing Amplify
 
-1. On the command line, in the note-app directory. Make sure that you are in the right directory. Run:
+1. On the command line, in the notes-app directory. Make sure that you are in the right directory. Run:
 
 ```
 amplify init
@@ -24,7 +24,7 @@ amplify init
 
 6. Accept the default values for source directory path, distribution directory path and build command, start command
 
-7. Select Yes when you want to use an AWS profile
+7. Select Yes when asked if you want to use an AWS profile.
 
 8. Select the default profile when prompted
 
