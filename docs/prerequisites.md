@@ -137,6 +137,7 @@ The allocated storage for your Cloud9 environment is quite small for the size of
 We will run a simple script to give more storage capability to our workspace.
 
 ```
+cd workshop-aws-getting-started-amplify/
 cd utils
 sh resize.sh 20
 ```
