@@ -140,6 +140,7 @@ We will run a simple script to give more storage capability to our workspace.
 cd workshop-aws-getting-started-amplify/
 cd utils
 sh resize.sh 20
+cd ..
 ```
 
 ### Next move to getting started
