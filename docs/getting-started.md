@@ -53,6 +53,7 @@ You can learn more about create-react-app at https://github.com/facebook/create-
 1. In the Cloud9 terminal, run:
 
 ```
+cd .. # MAKE SURE THAT YOU ARE IN workshop:~/environment $
 npx create-react-app notes-app
 ```
 
