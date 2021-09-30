@@ -23,7 +23,7 @@ For this demo I will show you the local deployment. But feel free to investigate
 
 2. Then choose the option that says "Amazon CloudFront and S3"
 
-3. Then choose the option "DEV". As we are doing this for a demo < TODO MAKE SURE THAT THIS WORKS ON EVENTENGINE>
+3. Then choose the option "DEV". As we are doing this for a demo
 
 4. Accept the default bucket name, index for the website, error docs for the website
 

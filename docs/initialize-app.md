@@ -16,7 +16,9 @@ amplify init
 
 2. Press Enter to accept the default project name ‘notesapp’
 
-3. Prese enter for the default environment name 'dev'
+3. Select 'n' when asked to 'Initialize the project with the above configuration' 
+
+3. Press enter for the default environment name 'dev'
 
 4. Select None - as we are using Cloud9
 
@@ -39,6 +41,7 @@ Plugin scan successful
 Note: It is recommended to run this command from the root of your app directory
 
 ? Enter a name for the project notesapp
+? Initialize the project with the above configuration? No
 ? Enter a name for the environment dev
 ? Choose your default editor: None
 ? Choose the type of app that you're building javascript

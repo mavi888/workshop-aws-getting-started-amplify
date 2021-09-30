@@ -14,7 +14,7 @@ amplify add api
 
 3. Leave the default API name: notesapp
 
-4. Choose the default authorziation for the API. Pick "Amazon Cognito User Pool"
+4. Choose the default authorization for the API: Pick "Amazon Cognito User Pool"
 
 5. Select "No, I am done" for advanced settings.
 
@@ -24,7 +24,8 @@ amplify add api
 
 8. Select "Yes" when asked if you want to edit the schema now.
 
-Copy this schema in the schema.graphql file that pops up.
+If you aren't using Cloud9, copy this schema in the schema.graphql file that pops up and save it.
+If you are using Cloud9, the file won't open itself. You can find it by browsing to "amplify --> backend --> api --> notesapp"  in the directory explorer on the left and double-clicking on it, and then pasting the schema from below into it, and saving it.
 
 ```
 type Note @model @auth(rules: [{allow: owner}]) {
@@ -72,7 +73,7 @@ Please manually edit the file created at /notes-app/amplify/backend/api/notesapp
 ? Press enter to continue
 ```
 
-9. Then push the changes to the cloud. Accept all the defaults and continue.
+9. Then push the changes to the cloud. Accept all the defaults and continue. This process will create the API in the cloud, and generate the code in your project you need to use it.
 
 ```
 $ amplify push
