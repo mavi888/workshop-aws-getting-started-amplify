@@ -50,7 +50,7 @@ Basically this annotation will create a secondary index in our DynamoDB table, t
 amplify push
 ```
 
-As always we accept all the defaults.
+As always we accept all the defaults; this will also recreate the code we use locally to interact with the API. 
 
 When this process ends now we will have a new query available in our AppSync and also a new global secondary index in DynamoDB.
 

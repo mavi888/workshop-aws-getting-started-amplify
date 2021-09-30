@@ -18,7 +18,10 @@ In this workshop, we’ll build an app with quite a few features, including:
 
 Here’s a map of the services we’ll use and how they’ll all connect.
 
-< TODO >
+<img src="../images/architecture.png"
+     alt="Architecture"
+     style="margin-right: 10px;" />
+
 
 ## The tools
 
@@ -56,6 +59,8 @@ You can learn more about create-react-app at https://github.com/facebook/create-
 cd .. # MAKE SURE THAT YOU ARE IN workshop:~/environment $
 npx create-react-app notes-app
 ```
+When asked to `install the following packages?`, enter `y` to proceed.
+
 
 2. Then, navigate to the newly created directory:
 
@@ -95,7 +100,7 @@ If you are not inside the notes-app directory, please go in there
 
 ```
 cd notes-app
-npm install bootstrap
+npm install bootstrap@4.5.2
 ```
 
 2. Then lets replace the index.html file with another one as we will need to add some stylesheets for later
